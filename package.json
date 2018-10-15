@@ -1,11 +1,11 @@
 {
-  "name": "tui-image-editor",
-  "author": "NHNEnt FE Development Lab <dl_javascript@nhnent.com>",
+  "name": "tui-image-editor-localization",
+  "author": "Nemo",
   "version": "3.2.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nhnent/tui.image-editor.git"
+    "url": "https://github.com/halonemo/tui.image-editor-localization.git"
   },
   "main": "dist/tui-image-editor.js",
   "description": "TOAST UI Component: ImageEditor",
