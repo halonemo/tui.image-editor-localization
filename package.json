@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/halonemo/tui.image-editor-localization.git"
+    "url": "git+https://github.com/halonemo/tui.image-editor-localization.git"
   },
   "main": "dist/tui-image-editor.js",
   "description": "TOAST UI Component: ImageEditor",
