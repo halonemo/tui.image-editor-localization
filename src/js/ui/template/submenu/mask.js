@@ -9,7 +9,7 @@ export default ({iconStyle: {normal, active}}) => (`
                         <use xlink:href="${active.path}#${active.name}-ic-mask-load" class="active"/>
                     </svg>
                 </div>
-                <label> Load Mask Image </label>
+                <label> 加载图片3 </label>
             </div>
         </li>
         <li class="tui-image-editor-partition only-left-right">
