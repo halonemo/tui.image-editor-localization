@@ -418,8 +418,7 @@ export default {
                     position: pos.originPosition,
                     styles: {
                         fill: this.ui.text.textColor,
-                        fontSize: util.toInteger(this.ui.text.fontSize),
-                        fontFamily: 'Noto Sans'
+                        fontSize: util.toInteger(this.ui.text.fontSize)
                     }
                 }).then(() => {
                     this.changeCursor('default');

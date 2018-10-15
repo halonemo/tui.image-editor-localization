@@ -389,18 +389,11 @@ class Graphics {
 
     /**
      * To data url from canvas
-     * @param {Object} options - options for toDataURL
-     *   @param {String} [options.format=png] The format of the output image. Either "jpeg" or "png"
-     *   @param {Number} [options.quality=1] Quality level (0..1). Only used for jpeg.
-     *   @param {Number} [options.multiplier=1] Multiplier to scale by
-     *   @param {Number} [options.left] Cropping left offset. Introduced in fabric v1.2.14
-     *   @param {Number} [options.top] Cropping top offset. Introduced in fabric v1.2.14
-     *   @param {Number} [options.width] Cropping width. Introduced in fabric v1.2.14
-     *   @param {Number} [options.height] Cropping height. Introduced in fabric v1.2.14
+     * @param {string} type - A DOMString indicating the image format. The default type is image/png.
      * @returns {string} A DOMString containing the requested data URI.
      */
-    toDataURL(options) {
-        return this._canvas && this._canvas.toDataURL(options);
+    toDataURL(type) {
+        return this._canvas && this._canvas.toDataURL(type);
     }
 
     /**

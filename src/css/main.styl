@@ -11,7 +11,6 @@ body > textarea
     position: relative;
     background-color: #282828;
     overflow: hidden;
-    letter-spacing: 0.3px;
   
     div, ul, label, input, li
       box-sizing: border-box;
@@ -52,17 +51,14 @@ body > textarea
         position: relative;
         width: 120px;
         height: 40px;
-        padding: 0;
-        line-height: 40px;
         outline: none;
         border-radius: 20px;
         border: 1px solid #ddd;
-        font-family: 'Noto Sans', sans-serif;
+        padding-top: 5px;
+        font-family: NotoSans, sans-serif;
         font-size: 12px;
         font-weight: bold;
         cursor: pointer;
-        vertical-align: middle;
-        letter-spacing: 0.3px;
 
     .-download-btn
         background-color: #fdba3b;
@@ -92,7 +88,7 @@ body > textarea
         left: 0;
     .-wrap
         position: absolute;
-        bottom: 0;
+        bottom: 150px;
         width: 100%;
         overflow: auto;
         .-size-wrap
@@ -104,7 +100,7 @@ body > textarea
                 vertical-align: middle;
           
     .
-        position: relative;
+        position: static;
         display: inline-block;
 
 
