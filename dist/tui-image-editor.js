@@ -950,7 +950,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	            }
 
 	            if (e.keyCode === keyCodes.BACKSPACE || e.keyCode === keyCodes.DEL) {
-	                e.preventDefault();
 	                this.removeActiveObject();
 	            }
 	        }
