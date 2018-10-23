@@ -5290,7 +5290,7 @@ return /******/ (function(modules) { // webpackBootstrap
 					shape: '形状',
 					icon: '图标',
 					text: '文字',
-					mask: '装饰',
+					mask: '水印',
 					filter: '过滤器'
 				}
 				btnElement.title = obj[menuName];
@@ -10918,7 +10918,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var _ref$iconStyle = _ref.iconStyle,
 	        normal = _ref$iconStyle.normal,
 	        active = _ref$iconStyle.active;
-	    return "\n    <ul class=\"tui-image-editor-submenu-item\">\n        <li>\n            <div class=\"tui-image-editor-button\">\n                <div class=\"custom-icon custom-image-file\">\n                    <input type=\"file\" accept=\"image/*\" id=\"tie-mask-image-file\">\n                    <svg class=\"svg_ic-submenu\">\n                        <use xlink:href=\"" + normal.path + "#" + normal.name + "-ic-mask-load\" class=\"normal\"/>\n                        <use xlink:href=\"" + active.path + "#" + active.name + "-ic-mask-load\" class=\"active\"/>\n                    </svg>\n                </div>\n                <label> 自定义遮罩层 </label>\n            </div>\n        </li>\n        <li class=\"tui-image-editor-partition only-left-right\">\n            <div></div>\n        </li>\n        <li id=\"tie-mask-apply\" class=\"tui-image-editor-newline apply\">\n            <div class=\"tui-image-editor-button apply\">\n                <svg class=\"svg_ic-menu\">\n                    <use xlink:href=\"" + normal.path + "#" + normal.name + "-ic-apply\" class=\"normal\"/>\n                    <use xlink:href=\"" + active.path + "#" + active.name + "-ic-apply\" class=\"active\"/>\n                </svg>\n                <label>\n                    应用\n                </label>\n            </div>\n        </li>\n    </ul>\n";
+	    return "\n    <ul class=\"tui-image-editor-submenu-item\">\n        <li>\n            <div class=\"tui-image-editor-button\">\n                <div class=\"custom-icon custom-image-file\">\n                    <input type=\"file\" accept=\"image/*\" id=\"tie-mask-image-file\">\n                    <svg class=\"svg_ic-submenu\">\n                        <use xlink:href=\"" + normal.path + "#" + normal.name + "-ic-mask-load\" class=\"normal\"/>\n                        <use xlink:href=\"" + active.path + "#" + active.name + "-ic-mask-load\" class=\"active\"/>\n                    </svg>\n                </div>\n                <label> 上传图片 </label>\n            </div>\n        </li>\n        <li class=\"tui-image-editor-partition only-left-right\">\n            <div></div>\n        </li>\n        <li id=\"tie-mask-apply\" class=\"tui-image-editor-newline apply\">\n            <div class=\"tui-image-editor-button apply\">\n                <svg class=\"svg_ic-menu\">\n                    <use xlink:href=\"" + normal.path + "#" + normal.name + "-ic-apply\" class=\"normal\"/>\n                    <use xlink:href=\"" + active.path + "#" + active.name + "-ic-apply\" class=\"active\"/>\n                </svg>\n                <label>\n                    应用\n                </label>\n            </div>\n        </li>\n    </ul>\n";
 	};
 
 /***/ }),
