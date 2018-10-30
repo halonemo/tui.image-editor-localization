@@ -672,7 +672,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *   cssMaxWidth: 700,
 	 *   cssMaxHeight: 500,
 	 *   selectionStyle: {
-	 *     cornerSize: 20,
+	 *     cornerSize: 1,
 	 *     rotatingPointOffset: 70
 	 *   }
 	 * });
@@ -4729,9 +4729,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	     */
 	    fObjectOptions: {
 	        SELECTION_STYLE: {
-	            borderColor: 'red',
-	            cornerColor: 'green',
-	            cornerSize: 10,
+				cornerStyle: 'circle',
+	            borderColor: 'rgba(255,255,255,0.9)',
+	            cornerColor: 'rgba(255,255,255,0.9)',
+	            cornerSize: 1,
 	            originX: 'center',
 	            originY: 'center',
 	            transparentCorners: false
@@ -4996,9 +4997,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	                applyGroupSelectionStyle: true,
 	                selectionStyle: {
 	                    cornerStyle: 'circle',
-	                    cornerSize: 20,
-	                    cornerColor: '#fff',
-	                    cornerStrokeColor: '#000',
+	                    cornerSize: 1,
+	                    cornerColor: 'rgba(255,255,255,0.9)',
+	                    cornerStrokeColor: 'rgba(255,255,255,0.9)',
 	                    transparentCorners: false,
 	                    lineWidth: 2,
 	                    borderColor: '#fff'
@@ -15227,9 +15228,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	                width: 1,
 	                height: 1,
 	                strokeWidth: 0, // {@link https://github.com/kangax/fabric.js/issues/2860}
-	                cornerSize: 10,
-	                cornerColor: 'black',
-	                fill: 'transparent',
+					cornerSize: 1,
+					cornerStyle: 'circle',
+					cornerColor: 'rgba(255,255,255,0.9)',
+					borderColor: 'rgba(255,255,255,0.9)',
+					fill: 'transparent',
+					transparentCorners: false,
 	                hasRotatingPoint: false,
 	                hasBorders: false,
 	                lockScalingFlip: true,
